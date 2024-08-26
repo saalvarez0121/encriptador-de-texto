@@ -106,9 +106,9 @@ main {
     }
 
     .mensaje {
-        background-image: none; /* Elimina la imagen de fondo en pantallas pequeñas */
+        background-image: none;
         margin-left: 0;
-        background-position: top center; /* Asegura que la imagen de fondo esté centrada */
+        background-position: top center;
     }
 
     .botones, .copiar {

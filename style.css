@@ -91,3 +91,33 @@ main {
     color: #173B45;
     font-size: 18px;
 }
+
+@media (max-width: 768px){
+    main{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-area, .mensaje {
+        width: 100%; /* Asegura que ocupen todo el ancho disponible */
+        height: 150px; /* Ajusta la altura para que sea más adecuada en móvil */
+        margin-top: 20px; /* Reduce el margen superior */
+    }
+
+    .mensaje {
+        margin-left: 0; /* Elimina el margen izquierdo en móvil */
+        background-position: top center; /* Asegura que la imagen de fondo esté centrada */
+    }
+
+    .botones, .copiar {
+        width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+        margin-left: 0; /* Elimina márgenes innecesarios */
+        margin-top: 15px; /* Espacio entre botones */
+    }
+
+    .copiar {
+        margin-left: 0; /* Elimina el margen izquierdo en móvil */
+    }
+}
+

@@ -106,7 +106,8 @@ main {
     }
 
     .mensaje {
-        margin-left: 0; /* Elimina el margen izquierdo en móvil */
+        background-image: none; /* Elimina la imagen de fondo en pantallas pequeñas */
+        margin-left: 0;
         background-position: top center; /* Asegura que la imagen de fondo esté centrada */
     }
 
